@@ -1,0 +1,72 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+font-size:62.5%;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+*{
+box-sizing: border-box;
+}
+
+/* ================================================================== */
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.todo-list {
+    width: 325px;
+    background: rgb(255, 204, 204);
+}
+.entry {
+    font-size: 16px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: rgb(255, 176, 176);
+    cursor: pointer;
+}
+.entry.completed {
+    color: white;
+    text-decoration: line-through;
+    background: rgb(170, 32, 32);
+}
